@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="personalizacion.css">
+	<title>Gestion de mercadeo</title>
+</head>
+
+<body>
+
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Segmentacion de mercado</h1>
+				<p>Venta de repuestos SENDOPARTS.</p>
+				<p>Rodrigo Esteban Morán Magaña</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todas las categorias</a>
+				<a href="#">¿qué es una segmentacion de mercado?</a>
+				<a href="#">identificacion</a>
+				<a href="#">suficiencia</a>
+				<a href="#">estabilidad</a>
+				<a href="#">accesibilidad</a>
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" data-categoria="¿qué es una segmentacion de mercado?" data-etiquetas="¿qué es una segmentacion de mercado?"
+				data-descripcion="Segmentacion de mercado es un método por el cual se pueden dividir a los clientes potenciales en distintos grupos, 
+				los cuales, permiten que las empresas puedan enviar mensajes personalizados a las audiencias correctas.">
+				<div class="item-contenido">
+					<img src="img/segmentacion.jpg" alt="">
+				</div>
+			</div>
+
+		
+			<div class="item" data-categoria="identificacion" data-etiquetas="identificacion"
+				data-descripcion="Identificacion de mercado. Esta nos ayuda a dividir el mercado en segmento en base de las necesidades. En este
+				caso no nos importa la edad,sexo,educacion nu mucho menos lugarde procedencia. Nos enfocamos mas a que tipode 
+				de marca buscan, queremos abarcar los gustos de nuestros cliente y poder ofrecerlos, si bien es cierto que podriamos
+				tomas el género como una identificacion (la mayoria de nuestros clientes son hombres), no podemos negar que tenemos y
+				buscamos abarcar ambos generos.">
+				<div class="item-contenido">
+					<img src="img/identificacion.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="suficiencia" data-etiquetas="suficiencia"
+				data-descripcion="Suficiencia de mercado.
+				Necesitamos que nuestro segmento de mercado valga la pena, para ello necesitamos abarcar el número 
+				de personas necesarias para x personas o que desean algo en particular. En el caso de repuestos SENDOPARTS tratamos de 
+				cubrir las necesidades de cada tipo de persona/consumidor, ya sea de poseedores de vehiculos pequeños,medianos y pesados,
+				estandar o automatico y de la mayoria de regiones(a lo que autos y repuestos se refiere).".>
+				<div class="item-contenido">
+					<img src="img/suficiencia.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="estabilidad" data-etiquetas="estabilidad"
+				data-descripcion="Estabilidad de mercado.Elegimos segmentos de consumidores estables. Nuestro punto de foco son los adultos.
+				En ellos buscamos crecer como empresa al cumplir sus necesidades y a raiz de eso por el boca en boca mantener nuestra
+				empresa a flote y en altos estandares. incluso a traves de los adultos que son padres pueda afianzar el seguir usando
+				nuestros servicios a travez de sus hijos y futuras generaciones.">
+				<div class="item-contenido">
+					<img src="img/Estabilidad.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="accesibilidad" data-etiquetas="accesibilidad"
+				data-descripcion="Accesibilidad de mercado. Buscamos insedir de forma economica en el segmento de mercado objetivo. ptimizar al máximo nuestros
+				recursos, ampliando nuestros posibles compradores con un tipo de publicidad contundente en todos los medios de comunicacion,
+				uso de anuncion televisivos, publicidad pagada en redes sociales, anuncios de radio, afiches y vayas publicitarios. todo 
+				esto con el fin de aumentar nuestro público y por ende crecer como empresa.">
+				<div class="item-contenido">
+					<img src="img/accesibilidad.jpg" alt="">
+				</div>
+
+
+			</div>
+
+			
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+	</div>
+
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
